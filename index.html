@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>AG AFUP'15 | Clermont'ech</title>
+
+        <link rel="stylesheet" href="reveal.js/css/reveal.min.css">
+        <link rel="stylesheet" href="css/theme.css" id="theme">
+        <link rel="stylesheet" href="css/custom.css">
+
+        <script>
+            if (window.location.search.match(/print-pdf/gi)) {
+                document.write('<link rel="stylesheet" href="css/pdf.css" type="text/css">');
+            }
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="reveal.js/lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>
+                    <h1 class="title">Clermont-Ferrand</h1>
+                    <em>Ville candidate PHP Tour 2016</em>
+                </section>
+
+                <section>
+                    <section data-markdown>
+                        <script type="text/template">
+                            ## Où ?
+                            <br>
+
+                            * Clermont-Ferrand, Auvergne
+                            * Au milieu, donc à la bonne distance
+                            * Entouré de volcans
+                        </script>
+                    </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                            ## Témoignages
+                            <br>
+
+                            ![](images/tem1.png)
+                        </script>
+                    </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                            ## (Presque) Vrais Témoignages
+                            <br>
+
+                            ![](images/marc.jpg)
+
+                            > “ Clermont-Ferrand est l'une des plus belles villes
+                            > qu'il m'est été donné de visiter ”
+                        </script>
+                    </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                            ## (Presque) Vrais Témoignages
+                            <br>
+
+                            ![](images/ubermuda.png)
+                        </script>
+                    </section>
+                    <section data-background="images/cathedral.jpg"></section>
+                    <section data-background="images/jaude.jpg"></section>
+                    <section data-background="images/polydome.jpg"></section>
+                    <section data-background="images/polydome2.jpg"></section>
+                </section>
+
+                <section>
+                    <section data-markdown>
+                        <script type="text/template">
+                            # Qui ?
+                        </script>
+                    </section>
+                    <section>
+                        <img src="images/clermontech.png" class="no-border">
+                    </section>
+                    <section>
+                        <h2>Clermont'ech, en bref</h2>
+                        <br>
+
+                        <table>
+                            <tr>
+                                <td>
+                                    <h3>Partage</h3>
+                                    <img src="images/noun_project_14291.svg" alt="Share" width="120px" class="no-border">
+                                </td>
+                                <td>
+                                    <h3>Ouverture</h3>
+                                    <img src="images/noun_project_8233.svg" alt="Open" width="200px" class="no-border" style="margin-top: -20px">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><br></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h3>Indépendance</h3>
+                                    <img src="images/noun_project_13480.svg" alt="Unlock" width="120px" class="no-border">
+                                </td>
+                                <td>
+                                    <h3>Respect</h3>
+                                    <img src="images/noun_project_767.svg" alt="Handshake" width="180px" class="no-border" style="margin-top: 40px">
+                                </td>
+                            </tr>
+                        </table>
+                    </section>
+                    <section data-markdown>
+                        <script type="text/template">
+                            ## Plus des bénévoles !
+                            <br>
+
+                            ### [@LavaJUG](https://twitter.com/LavaJUG)
+
+                            ### [@ClermontJS](https://twitter.com/ClermontJS)
+
+                            ### [@Clermont.rb](https://twitter.com/clermontrb)
+
+                            ### et bien d'autres
+                        </script>
+                    </section>
+                </section>
+
+                <section>
+                    <h2>Merci &hearts;</h2>
+
+                    <p>
+                        <img src="images/vive.jpg">
+                    </p>
+                </section>
+            </div>
+        </div>
+        <script type="text/javascript" src="reveal.js/lib/js/head.min.js"></script>
+        <script type="text/javascript" src="reveal.js/js/reveal.min.js"></script>
+        <script type="text/javascript">
+            Reveal.initialize({
+                slideNumber: !window.location.search.match(/print-pdf/gi),
+                history: true,
+
+                theme: Reveal.getQueryHash().theme,
+                transition: Reveal.getQueryHash().transition || 'concave',
+
+                dependencies: [
+                    { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'js/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                ]
+            });
+        </script>
+    </body>
+</html>

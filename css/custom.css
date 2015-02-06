@@ -1,0 +1,13 @@
+.no-border {
+    border: 0 !important;
+    box-shadow: none !important;
+    background: none !important;
+}
+
+.reveal table {
+    width: 100%;
+}
+
+.reveal table th, .reveal table td {
+    text-align: center;
+}
